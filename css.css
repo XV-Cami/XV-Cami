@@ -41,7 +41,7 @@ body {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background-image: url('img/FONDO-textura.jpg.jpeg'); /* REEMPLAZAR */
+    background-image: url('img/PortraitBackground.jpeg'); /* REEMPLAZAR */
     background-size: cover;
     background-position: center;
     display: flex;
