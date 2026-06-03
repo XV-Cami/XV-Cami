@@ -144,7 +144,7 @@ body {
 /* EVENTOS */
 .events-section {
     /*background-color: var(--bg-pattern);*/
-    background-image: url('img/FONDO-textura.jpg.jpeg');
+    background-image: url('img/Background.jpeg');
     background-size: cover;
     background-position: center;
     padding: 50px 20px;
@@ -321,14 +321,15 @@ body {
 
 /* RSVP / CONFIRMACIÓN */
 .rsvp-section {
-    background: linear-gradient(to bottom, #F8F5F0 0%, #FFFFFF 100%);
+    /*background: linear-gradient(to bottom, #F8F5F0 0%, #FFFFFF 100%);*/
     text-align: center;
     padding: 60px 20px 100px 20px;
     position: relative;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-image: url('img/FlowersBackground.jpeg'); /* REEMPLAZAR */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
 
 .rsvp-section p {
@@ -336,15 +337,6 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 600;
-}
-
-
-.floral-corner {
-    /*position: absolute;*/
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-top: auto;
 }
 
 /* Ajustes menores para pantallas muy pequeñas */
