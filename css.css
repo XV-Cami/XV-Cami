@@ -351,4 +351,6 @@ body {
 @media (max-width: 400px) {
     .hero-overlay .title { font-size: 3.5rem; }
     .gifts-content { flex-direction: column; text-align: center; }
+
+    .gift-img { width: 350px; }
 }
