@@ -79,7 +79,7 @@ body {
 .countdown-section {
     text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 20px 0;
     position: relative;
 }
 
@@ -118,19 +118,21 @@ body {
 
 .ornament, .ornament-bottom {
     width: 100%;
-    max-width: 400px;
     height: auto;
 }
 
 .ornament-bottom {
-    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
     transform: rotate(180deg);
+    margin-top: 20px;
 }
 
 /* FRASE */
 .quote-section {
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 0 80px 0;
     background-color: white;
 }
 
@@ -139,6 +141,7 @@ body {
     font-style: italic;
     font-size: 1.3rem;
     color: var(--gold-text);
+    padding: 0 20px;
 }
 
 /* EVENTOS */
